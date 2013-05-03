@@ -39,7 +39,7 @@ public class DetailRssReaderActivity  extends Activity{
 		title = (TextView) findViewById(R.id.title);
 		desc = (WebView) findViewById(R.id.desc);
 
-		// set webview properties
+		// set web view properties
 		WebSettings ws = desc.getSettings();
 		ws.setLayoutAlgorithm(LayoutAlgorithm.SINGLE_COLUMN);
 		ws.getPluginState();
@@ -49,7 +49,7 @@ public class DetailRssReaderActivity  extends Activity{
 
 		// Set the views
 		title.setText(feed.getItem(pos).getTitle());
-		desc.loadDataWithBaseURL("http://www.androidcentral.com/", feed	.getItem(pos).getDescription(), "text/html", "UTF-8", null);
+		desc.loadDataWithBaseURL("http://www.mobilenations.com/", feed.getItem(pos).getDescription(), "text/html", "UTF-8", null);
 	}
 
 }

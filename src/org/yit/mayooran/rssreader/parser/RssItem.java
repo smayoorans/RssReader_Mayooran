@@ -8,8 +8,7 @@ public class RssItem implements Serializable {
 	private String title = null;
 	private String description = null;
 	private String date = null;
-	
-	
+		
 	public String getTitle() {
 		return title;
 	}

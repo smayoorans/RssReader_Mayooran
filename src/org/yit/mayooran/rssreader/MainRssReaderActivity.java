@@ -13,6 +13,8 @@ import android.content.Intent;
 public class MainRssReaderActivity extends Activity {
 
 	private String RSSFEEDURL = "http://www.mobilenations.com/rss/mb.xml";
+	
+	
 	RssFeed feed;
 	
 	
